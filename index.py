@@ -2,32 +2,32 @@ from slithering import Frog, Lizard, Newt, Snake, Spider
 from swimming import Crustacean, Duck, Fish, Goose, Swan
 from walking import Cow, Donkey, Goat, Llama, Pig
 
-miss_fuzz = Llama("Miss Fuzz", "domestic Llama", "morning")
+miss_fuzz = Llama("Miss Fuzz", "domestic Llama", "morning", "llama chow")
 
-stan = Donkey("Stan", "American Mammoth Jackstock", "midday")
+stan = Donkey("Stan", "American Mammoth Jackstock", "midday", "donkey chow")
 
-peter = Goat("Peter", "Pygmy Goat", "afternoon")
+peter = Goat("Peter", "Pygmy Goat", "afternoon", "tin cans")
 
-short_stack = Cow("Short Stack", "Shetland Cow", "morning")
+short_stack = Cow("Short Stack", "Shetland Cow", "morning", "hay")
 
-kiki = Pig("Kiki", "Kunekune", "midday")
-print(f"{kiki.name} the {kiki.species} is available to pet during the {kiki.shift}")
-noodle = Snake("Noodle", "Western Hognose")
+kiki = Pig("Kiki", "Kunekune Pig", "midday", "vegetables")
 
-beardo = Lizard("Beardo", "Bearded Dragon")
+noodle = Snake("Noodle", "Western Hognose", "mouse")
 
-graham_chapman = Newt("Graham Chapmam", "Chinese Fire Belly")
+beardo = Lizard("Beardo", "Bearded Dragon", "meal worms")
 
-hopper = Frog("Hopper", "Poison Dart Frog")
+graham_chapman = Newt("Graham Chapman", "Chinese Fire Belly", "meal worms")
 
-spinner = Spider("Spinner", "Red-Knee Tarantula")
+hopper = Frog("Hopper", "Poison Dart Frog", "fruit flies")
 
-mckoi = Fish("McKoi", "Koi")
+spinner = Spider("Spinner", "Red-Knee Tarantula", "insects")
 
-daffy = Duck("Daffy", "Black Swedish")
+mckoi = Fish("McKoi", "Koi", "fish food")
 
-grey = Goose("Grey", "Canadian Goose")
+daffy = Duck("Daffy", "Black Swedish", "bread crumbs")
 
-tilda_swanton = Swan("Tilda Swanton", "Trumpeter Swan")
+grey = Goose("Grey", "Canadian Goose", "bread crumbs")
 
-sebastian = Crustacean("Sebastian", "Blue Crab")
+tilda_swanton = Swan("Tilda Swanton", "Trumpeter Swan", "bread crumbs")
+
+sebastian = Crustacean("Sebastian", "Blue Crab", "shrimp")
